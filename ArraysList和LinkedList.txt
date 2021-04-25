@@ -1,0 +1,10 @@
+ArrayLists和LinkedList的区别
+ArrayLists和LinkedList都继承并且实现了List接口
+
+LinkedList底层是链表数据结构,ArrayLists底层是动态数组数据结构
+
+对于增删操作,LinkedList性能更高,ArrayLists需要移动数据
+
+对于具体的查找和替换,ArraysLists性能更高,LinkedList需要移动指针
+
+ArrayLists的空间容量默认为10,LinkedList的空间容量会自憎
